@@ -2,6 +2,7 @@ package com.example.notes
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -31,5 +32,12 @@ class MainActivity : AppCompatActivity(), INotesRVAdapter {
 
     override fun onItemClicked(note: Note) {
         viewModel.deleteNote(note)
+    }
+
+    fun submitData(view: View) {
+        val noteText = input.text.toString()
+        if(noteText.isNotEmpty()){
+            viewModel.insertNote(Note(noteText))
+        }
     }
 }
