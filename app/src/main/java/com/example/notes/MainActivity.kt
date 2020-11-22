@@ -27,8 +27,6 @@ class MainActivity : AppCompatActivity(), INotesRVAdapter {
                 adapter.updateList(it)
             }
         })
-
-
     }
 
     override fun onItemClicked(note: Note) {
