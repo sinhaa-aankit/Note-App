@@ -5,7 +5,7 @@ This app is made by using Various features of Android as shown Below: -
  
 This is Simple main screen where a InputText & Submit Button appears Whenever user types something in text field & presses submit button the data gets submitted to the database & appears below in RecyclerView. 
 
-![1](https://user-images.githubusercontent.com/40895035/99976691-c7481b00-2dc9-11eb-962b-92c82437aa6d.jpg = 540*1080)
+![1](https://user-images.githubusercontent.com/40895035/99976691-c7481b00-2dc9-11eb-962b-92c82437aa6d.jpg width="200" height="400")
  
  
   
